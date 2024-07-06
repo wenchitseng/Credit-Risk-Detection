@@ -3,7 +3,8 @@ This report is a coursework project that employs different algorithms to detect 
 
 # Introduction
 - Datasource: https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis/data
-- Column Descriptions:
+
+Column Descriptions:
 * ID: Unique identifier for each loan applicant.
 * Age: Age of the loan applicant.
 * Income: Income of the loan applicant.
@@ -48,7 +49,7 @@ This report is a coursework project that employs different algorithms to detect 
 
 If we only focus on testing accuracy, all five models perform similarly. However, in predicting loan defaults, it is more important to prioritize recall since the cost of missing an actual default is usually higher than the cost of incorrectly predicting a loan default.
 
-XGBoost has the highest recall and F1 score. This is reasonable because logistic regression models the relationship between the features and the log odds of the target variable as a linear combination of features, limiting its performance when the relationship is not linear. This limitation is reflected in the table's low recall and F1-score of the logistic regression model. The Random Forest model, also based on decision trees, builds trees independently in parallel. However, XGBoost improves on this by boosting the training process to correct the errors of previous trees.
+**XGBoost has the highest recall and F1 score.** This is reasonable because logistic regression models the relationship between the features and the log odds of the target variable as a linear combination of features, limiting its performance when the relationship is not linear. This limitation is reflected in the table's low recall and F1-score of the logistic regression model. The Random Forest model, also based on decision trees, builds trees independently in parallel. However, XGBoost improves on this by boosting the training process to correct the errors of previous trees.
 
 In conclusion, although building an ensemble model usually results in better performance than individual models, in this case, XGBoost outperforms the others and is likely the most suitable model. This practice leverages the knowledge and skills I acquired in the UCI BANA273 Machine Learning class, providing me with a more comprehensive understanding of real-world applications.
 
