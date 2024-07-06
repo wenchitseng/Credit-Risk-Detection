@@ -38,7 +38,7 @@ This report is a coursework project that employs different algorithms to detect 
  <img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/a4f882a9-3372-4e08-b497-b4ec736d3002">
 
 ### Before and After Improvement
-<img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/3000d17d-8f86-43c9-a650-34c2e2eab110"> <img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/efa1e23b-1f1d-4d34-a179-db00f9afd063">
+<img width="300" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/3000d17d-8f86-43c9-a650-34c2e2eab110"> <img width="300" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/efa1e23b-1f1d-4d34-a179-db00f9afd063">
 
 ### Ensemble Model 
 * Combined the 3 models above with the voting method.
