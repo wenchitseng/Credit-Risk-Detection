@@ -2,9 +2,8 @@
 This report is a coursework project that employs different algorithms to detect individual loan defaults. Curious about how lenders decide whether to approve loans, I chose this topic to leverage my knowledge and skills and explore this question through real-world applications.
 
 # Introduction
-- Datasource: https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis/data
-
-Column Descriptions:
+### Datasource: https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis/data
+### Column Descriptions:
 * ID: Unique identifier for each loan applicant.
 * Age: Age of the loan applicant.
 * Income: Income of the loan applicant.
