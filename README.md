@@ -37,14 +37,15 @@ This report is a coursework project that employs different algorithms to detect 
  <img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/a4f882a9-3372-4e08-b497-b4ec736d3002">
 
 ### Before and After Improvement
-<img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/3000d17d-8f86-43c9-a650-34c2e2eab110"> <img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/e76d0751-55c6-4a3a-bac1-3fe9ec53892b">
+<img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/3000d17d-8f86-43c9-a650-34c2e2eab110"> <img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/efa1e23b-1f1d-4d34-a179-db00f9afd063">
 
 ### Ensemble Model 
 * Combined the 3 models above with the voting method.
-<img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/fa14c4ab-c45c-47cd-95bf-1a52749b29ff">
+<img width="500" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/9d97fe6c-b1b4-4b64-bd66-b052942122d8">
 
 # Conclusion
-<img width="900" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/2d28f553-0cac-401c-988e-6f76a2b02ced">
+<img width="935" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/1c154b6f-352b-4c88-a8dd-cc9fd41f0123">
+
 If we only focus on testing accuracy, all five models perform similarly. However, in predicting loan defaults, it is more important to prioritize recall since the cost of missing an actual default is usually higher than the cost of incorrectly predicting a loan default.
 
 XGBoost has the highest recall and F1 score. This is reasonable because logistic regression models the relationship between the features and the log odds of the target variable as a linear combination of features, limiting its performance when the relationship is not linear. This limitation is reflected in the table's low recall and F1-score of the logistic regression model. The Random Forest model, also based on decision trees, builds trees independently in parallel. However, XGBoost improves on this by boosting the training process to correct the errors of previous trees.
