@@ -19,6 +19,7 @@ This report is a coursework project that employs different algorithms to detect 
 <img width="816" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/b7100421-f502-4b1d-9121-8d96c9b3e641">
 
 # Data Transformation and Resampling
+- Class 1 (Default) and Class 0 (Non Default)
 - I split data into 80% training (26,064) and 20% testing (6,517).
 - Due to the high imbalance of class, I used SMOTE to resample data in the training set to avoid bias toward the majority class.
 <img width="700" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/eaabe6d6-de18-45c8-8684-613fe06df78e">
