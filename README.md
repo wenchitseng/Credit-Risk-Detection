@@ -22,7 +22,7 @@ This report is a coursework project that employs different algorithms to detect 
 <img width="700" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/03304c95-04a0-4acf-95b2-4c62f2fd75e1">
 
 
-# Data Transformation and Resampling
+# Data Transformation and Resampling Using Python
 - Class 1 (Default) and Class 0 (Non Default)
 - I split data into 80% training (26,064) and 20% testing (6,517).
 - Due to the high imbalance of class, I used SMOTE to resample data in the training set to avoid bias toward the majority class.
