@@ -1,4 +1,4 @@
-# Loan Default Detection
+# 💰 Loan Default Detection
 This report is a coursework project that employs different algorithms to detect individual loan defaults. Curious about how lenders decide whether to approve loans, I chose this topic to leverage my knowledge and skills and explore this question through real-world applications.
 
 # Introduction
