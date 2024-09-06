@@ -18,7 +18,7 @@ This report is a coursework project that employs different algorithms to detect 
 * Cred_Length: Length of the applicant's credit history.
 <img width="816" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/b7100421-f502-4b1d-9121-8d96c9b3e641">
 
-### Exploratory Data Analysis (EDA) on Tableau: https://www.youtube.com/watch?v=0fdxgivYWHk
+### Exploratory Data Analysis (EDA) on Tableau
 <img width="700" alt="image" src="https://github.com/wenchitseng/loan_default_detection/assets/145182368/03304c95-04a0-4acf-95b2-4c62f2fd75e1">
 
 
