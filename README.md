@@ -54,6 +54,7 @@ This report is a coursework project that employs different algorithms to detect 
 If we only focus on testing accuracy, all five models perform similarly. However, in predicting loan defaults, it is more important to prioritize recall since the cost of missing an actual default is usually higher than the cost of incorrectly predicting a loan default.
 
 **XGBoost has the highest recall and F1 score.** From the cost-metrix below, we achieved a 62% reduction(Total cost: $8,008,985 -> $3,160,103) in potential cost from false predictions using XGBoost model.
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/4ec56695-6956-4ba4-b069-70a8faba620d">
 
 
 
